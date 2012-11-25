@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+android:orientation="vertical"
+android:layout_width="fill_parent"
+android:layout_height="fill_parent">
+
+    <Button
+    android:id="@+id/btnGps"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:text="Onde estou?"/>
+    
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+    
+    <TextView
+    android:id="@+id/lblLatitude"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Latitude: "/>
+    
+    <TextView
+    android:id="@+id/txtLatitude"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"/>
+    </LinearLayout>
+    
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+    
+    <TextView
+    android:id="@+id/lblLongitude"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Longitude: "/>
+    
+    <TextView
+    android:id="@+id/txtLongitude"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"/>
+    </LinearLayout>
+
+</LinearLayout>
